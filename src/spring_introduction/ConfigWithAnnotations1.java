@@ -2,19 +2,19 @@
 //
 //import org.springframework.context.support.ClassPathXmlApplicationContext;
 //
-//public class Test3 {
+//public class ConfigWithAnnotations1 {
 //    public static void main(String[] args) {
 //        ClassPathXmlApplicationContext context =
-//                new ClassPathXmlApplicationContext("applicationContext.xml");
+//                new ClassPathXmlApplicationContext("ApplicationContext3.xml");
 //
-////        Pet pet = context.getBean("myPet", Pet.class);
-////        Pet pet = new Cat();
-//
-////        Person person = new Person(pet);
-//        Person person = context.getBean("myPerson", Person.class);
+//        Person person = context.getBean("personBean", Person.class);
 //        person.callYourPet();
 //        System.out.println(person.getSurname());
 //        System.out.println(person.getAge());
+//
+//
+////        Cat myCat = context.getBean("cat", Cat.class);
+////        myCat.say();
 //
 //        context.close();
 //    }
